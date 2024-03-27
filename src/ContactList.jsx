@@ -1,4 +1,4 @@
-
+import ContactRow from "./ContactRow"
 
 const ContactList = ({ contacts, setSelectedRowId }) => {
   return (
@@ -14,18 +14,11 @@ const ContactList = ({ contacts, setSelectedRowId }) => {
         {
           contacts.map((contact, idx) => {
             return (
-              <tr
-                className="row"
-                key={idx}
-                id={contact.id}
-                onMouseEnter={()=>{
-                  setSelectedRowId(contact.id)
-                }}
-              >
-                <td>{contact.name}</td>
-                <td>{contact.email}</td>
-                <td>{contact.phone}</td>
-              </tr>
+           <ContactRow
+           key={idx}
+           contact={contact}
+           setSelectedRowId={setSelectedRowId}
+           />
             )
           })
         }
