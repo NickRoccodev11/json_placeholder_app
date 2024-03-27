@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(163, 195, 195);
+}
+
+.table {
+  background-color: rgb(144, 155, 165);
+  margin: 10px;
+}
+
+.header {
+  background-color: aliceblue;
+}
+
+.row {
+  background-color: rgb(169, 200, 228);
+
+}
+
+td {
+  padding: 5px;
+}
+th{
+  background-color: rgb(195, 229, 218);
+}
+
+#display {
+  background-color: rgb(194, 225, 225);
+  width: 550px;
+  text-align: center;
+}
+
+#display>p>span {
+  color: rgb(125, 67, 67);
+  font-weight: bold;
+}
