@@ -25,8 +25,9 @@ th{
 
 #display {
   background-color: rgb(194, 225, 225);
-  width: 550px;
+  width: 530px;
   text-align: center;
+  padding: 15px;
 }
 
 #display>p>span {
