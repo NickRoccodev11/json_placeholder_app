@@ -1,8 +1,5 @@
-# React + Vite
+# Rolodex
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+-a list of contacts with the ability to hover over a contact for more details
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Netlify URL: https://66046ed2c42a1a41737a8e4f--eloquent-speculoos-fb6ab1.netlify.app/
