@@ -1,4 +1,4 @@
-import ContactRow from "./ContactRow"
+import ContactRow from "./ContactRow";
 
 const ContactList = ({ contacts, setSelectedRowId }) => {
   return (
@@ -14,11 +14,11 @@ const ContactList = ({ contacts, setSelectedRowId }) => {
         {
           contacts.map((contact, idx) => {
             return (
-           <ContactRow
-           key={idx}
-           contact={contact}
-           setSelectedRowId={setSelectedRowId}
-           />
+              <ContactRow
+                key={idx}
+                contact={contact}
+                setSelectedRowId={setSelectedRowId}
+              />
             )
           })
         }

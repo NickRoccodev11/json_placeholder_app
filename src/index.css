@@ -19,7 +19,8 @@ body {
 td {
   padding: 5px;
 }
-th{
+
+th {
   background-color: rgb(195, 229, 218);
 }
 
@@ -33,4 +34,18 @@ th{
 #display>p>span {
   color: rgb(125, 67, 67);
   font-weight: bold;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease-in-out;
 }

@@ -1,4 +1,3 @@
-
 const ContactRow = ({ contact, setSelectedRowId }) => {
   return (
     <tr
